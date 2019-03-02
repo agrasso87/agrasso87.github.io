@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>WebDAV - What is it and why do we use it?</title>
+<meta charset="utf-8">
+<meta name="WebDAV History and Background" content="History, advantages, disadvantages and examples of Web-based Distributed Authoring & Versioning">
+</head>
+<body>
+<img src="webdav.png">
+<h1>WebDAV and its uses</h1>
+<h2>What is WebDAV?</h2>
+Web-based Distributed Authoring and Versioning, or <b>WebDAV</b> is a set of extensions to HTTP protocol that allow for editing and managing of files collaboratively on a remote server.
+
+<h2>History of WebDAV</h2>
+<p>WebDAV began as <a href="http://lists.w3.org/Archives/Public/w3c-dist-auth/1996JulSep/0001.html">a meeting</a> between UC Irvine graduate Jim Whitehead and interested members of the World Wide Web Consortium. The meeting was called to discuss the reading and writing capabilities in Tim Berners-Lee's original WorldWideWeb browser and how to implement those capabilities in the modern era.<br>
+
+<p>The meetings between Whitehead and the members for the W3C resulted in the formation of an IETF working group, and eventually the protocol was first defined in Request for Comments 2518, commonly known as <a href="https://tools.ietf.org/html/rfc2518">RFC 2518,</a> however the protocol did not initially provide for versioning.</p>
+
+<p>Eventually, in 2017, the WebDAV working group concluded its work and WebDAV was finally updated to <a href="https://tools.ietf.org/html/rfc4918">RFC 4918.</a></p>
+
+<h2>What are the advantages of using WebDAV?</h2>
+As WebDAV works over HTTP, it has some significant <a href="https://www.serverwatch.com/tutorials/article.php/2194001/Introducing-WebDav.htm">benefits</a> over FTP, including:
+<ul>
+    <li>Encryption</li>
+    <li>Strong Authentication</li>
+    <li>Proxy Support</li>
+    <li>Caching</li>
+    <li>Pipelining Multiple Transfers through a single TCP connection</li>
+</ul>
+
+<h2>What are the disadvantages of using WebDAV?</h2>
+As WebDAV is collaborative, it has some potential <a href="http://www.tdl.com/~jrb/jrb7/webdav.html">disadvantages</a> compared to FTP, including:
+<ul>
+    <li>Security issues with the need to  protect content through both file system and web server</li>
+    <li>Potential duplicate user management and authentication</li>
+    <li>No source control - files are only locked when they are open</li>
+    <li>Caching</li>
+    <li>Pipelining Multiple Transfers through a single TCP connection</li>
+</ul>
+
+<h2>What are some servers that support WebDAV?</h2>
+There are a number of various servers that <a href="https://www.cloudwards.net/what-is-webdav/">support WebDAV:</a>
+<ul>
+    <li>Apache</li>
+    <li>Microsoft's Internet Information Systems</li>
+    <li>SabreDAV</li>
+    <li>Nginx</li>
+    <li>ownCloud</li>
+    <li>Nextcloud</li>
+</ul>
+
+<hr>
+<p>Composed by:
+<cite>Alex Grasso</cite>
+</body>
+</html>
