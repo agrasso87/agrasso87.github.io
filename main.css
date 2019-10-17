@@ -1,0 +1,30 @@
+ body { background-color:lightblue}
+    
+    .wrapper {max-width: 1000px;}
+    
+    .header {margin-left: auto; margin-right: auto;}
+    
+    #triptych {display: block; margin-left: auto; margin-right: auto; vertical-align: top; }
+    
+     #menu {display: flex; flex-direction:row; justify-content:space-between; width: 500px; margin-top: 20px; margin-left: auto; margin-right: auto; }
+    
+    #bikeandme {display: inline-block; float:right; padding: 10px; width:350px; height:250px; }
+    
+    .content {display: block; margin-left: auto; padding: 40px 50px;}
+    
+    #logo {float:left; margin-right: 10px;}
+    
+    #menu button {width: 100px; height: 50px; line-height: 50px; text-align:center; border-radius: 12px; margin-bottom: 5px; font-family:cursive; }
+    
+    a:link {color:black;}
+    a:visited {color: black;}
+    
+    #home {background-color:orangered;}
+    
+    #support {background-color: orange;}
+    
+    #directions {background-color: cornflowerblue}
+    
+    #contact {background-color: #072F5F;}
+    
+    #filler {background-color: darkgray}
