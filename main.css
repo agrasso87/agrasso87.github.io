@@ -4,7 +4,7 @@
     
     .header {margin-left: auto; margin-right: auto;}
     
-    #triptych {display: block; margin-left: auto; margin-right: auto; vertical-align: top; }
+    #triptych {display: block; margin-left: auto; margin-right: auto; vertical-align: top; width:600px; height:150px; }
     
      #menu {display: flex; flex-direction:row; justify-content:space-between; width: 500px; margin-top: 20px; margin-left: auto; margin-right: auto; }
     
@@ -12,7 +12,7 @@
     
     .content {display: block; margin-left: auto; padding: 40px 50px;}
     
-    #logo {float:left; margin-right: 10px;}
+    #logo {float:left; margin-right: 10px; width:200px; height:200px;}
     
     #menu button {width: 100px; height: 50px; line-height: 50px; text-align:center; border-radius: 12px; margin-bottom: 5px; font-family:cursive; }
     
@@ -21,10 +21,10 @@
     
     #home {background-color:orangered;}
     
-    #support {background-color: orange;}
+    #donate {background-color: orange;}
     
-    #directions {background-color: cornflowerblue}
+    #alcwebsite {background-color: cornflowerblue}
     
-    #contact {background-color: #072F5F;}
+    #photos {background-color: #072F5F;}
     
-    #filler {background-color: darkgray}
+    #contact {background-color: darkgray}
